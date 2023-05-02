@@ -2,7 +2,10 @@ import java.util.*;
 
 public class reverse{
 public static void main(String[] args){
-    Scanner sc =
+    Scanner sc = new Scanner(System.in);
+    int n;
+    System.out.println("Enter the number:- ");
+    n=sc.nextInt();
     int temp=n;
     int rev=0,rem=0;
     while(temp>0){
